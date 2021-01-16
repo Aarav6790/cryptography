@@ -14,4 +14,5 @@ for i in inpt:
             if final_index<0:
                 final_index=final_index+26
             outpt.append(letters[final_index])
-print(outpt)
+for j in outpt:
+    print(j, end = ' ') 
